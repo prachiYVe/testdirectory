@@ -73,6 +73,14 @@ html body{
 
 
 }
+#achievements{
+	position:relative;
+}
+#achievements #trophy{
+	position:absolute;
+	top:35px;
+	right:35px;
+}
 #main-movies{
 	margin-top:40px;
 }
