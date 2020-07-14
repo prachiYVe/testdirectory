@@ -1,0 +1,291 @@
+
+#head{
+	position:relative;
+}
+#head #hisname{
+	min-height:120px;
+	border-radius:0;
+	background-image:url("https://c4.wallpaperflare.com/wallpaper/987/800/860/smoke-white-wriggling-black-background-wallpaper-preview.jpg");
+	background-size:100%;
+}
+#hisname #page-title{
+	color:#FF4500;
+	font-family:'Allerta Stencil';
+	font-size:1.5em;
+
+}
+html #content #head{
+	
+	background-color:black;
+	width:100%;
+	height:100%;
+}
+#head #hisname .navbar-brand{
+	position:absolute;
+	top:8px;
+	left:8px;
+	color:orange;
+	font-size:3em;
+	font-family:'Allerta Stencil';
+
+}
+#margin{
+	margin-bottom:30px;
+}
+
+header{
+	height:100px;
+}
+#head #hisname button{
+	position:absolute;
+	right:5px;
+	top:10px;
+
+}
+ul .nav-item{
+	margin-top:50px;
+	color:#D35400;
+	font-size:1.2em;
+
+}
+html body{
+	background-color:black;
+}
+
+#collapsibleNavbar ul .nav-item:hover{
+   background-color:#7F8C8D;
+
+}
+#main-content{
+	height:900px;
+	width:100%;
+}
+#main-content img{
+	width:100%;
+	margin-top:20px;
+}
+#main-movies .picture{
+	height:300px;
+	background-repeat:no-repeat;
+	border: 2px solid crimson;
+	position:relative;
+	background-size:100%;
+
+
+}
+#main-movies{
+	margin-top:40px;
+}
+#main-movies #heading{
+	margin-top:10px;
+	margin-bottom:20px;
+	font-size:1.2em;
+	font-family:'Alegreya';
+	color:#00008B;
+	font-weight:bold;
+}
+#main-movies .movie{
+	margin-top:20px;
+	margin-bottom:30px;
+}
+.detail h3{
+	color:#CD5C5C;
+	font-family:'Arbutus Slab';
+}
+#main-movies .description{
+	color:white;
+	font-size:1.3em;
+	font-family:'Sofia';
+
+
+}
+#main-movies a div{
+	position:absolute;
+	bottom:0;
+	left:0;
+	font-size:1.8em;
+	color:#00008B;
+	font-weight:bold;
+	background-color:#B0C4DE;
+	opacity:0.6;
+	width:100%;
+	height:30px;
+
+}
+#main-movies a div:hover{
+	background-color:#FFC0CB;
+	opacity:0.2;
+}
+.margins{
+	width:60%;
+	align-self:center;
+	border:2px solid gray;
+
+}
+@media(max-width:399px)
+{
+	#head #hisname .navbar-brand{
+		font-size:2em;
+	}
+	#main-content img{
+		margin-top:0;
+	}
+	#main-movies .picture{
+		width:220px;
+		height:300px;
+		margin-left:15%;
+		margin-right:17%;
+	}
+	#main-movies .row h3{
+		margin-top:25px;
+	}
+	.margins{
+		
+		align-self: right;
+		width:100%;
+	}
+}
+@media(min-width:400px) and (max-width:479px)
+{
+	#head #hisname .navbar-brand{
+		font-size:2em;
+	}
+	#main-content img{
+		margin-top:0;
+	}
+	#main-movies .picture{
+		width:220px;
+		height:300px;
+		margin-left:20%;
+		margin-right:17%;
+	}
+	#main-movies .row h3{
+		margin-top:25px;
+	}
+	.margins{
+		
+		align-self: right;
+		width:100%;
+	}
+}
+#achievements #achievement-heading{
+	margin-top:10px;
+	margin-bottom:20px;
+	font-size:1.2em;
+	font-family:'Alegreya';
+	color:gold;
+	font-weight:bold;
+}
+#achievements .category{
+	font-family:'Alegreya';
+	font-size:2em;
+	color:brown;
+	font-weight:bold;
+	margin-top:20px;
+
+}
+#achievements .category .awards{
+	font-size:0.9em;
+	color:white;
+}
+body #full-leng{
+	background-image()
+}
+body hr{
+	border: 3px double #8c8b8b;
+	color:crimson;
+}
+.container #info{
+	font-size:1.5em;
+	text-decoration:none;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+body{
+	position:relative;
+
+}
+#navigate a{
+	position:absolute;
+	right:10px;
+	bottom:0px;
+	font-size:1.5em;
+	margin-bottom:30px;
+
+
+}
+#info{
+	color:green;
+}
+
+@media(min-width:480px) and (max-width:767px)
+{
+	#head #hisname .navbar-brand{
+		font-size:3em;
+	}
+	#main-content img{
+		margin-top:0;
+	}
+	#main-movies .picture{
+		width:220px;
+		height:300px;
+		margin-left:30%;
+		margin-right:25%;
+	}
+	#main-movies .row h3{
+		margin-top:25px;
+	}
+	.margins{
+		
+		align-self: right;
+		width:100%;
+	}
+
+}
+@media(min-width:768px) and (max-width:991px)
+{
+	#hisname #collapsibleNavbar .navbar-nav{
+		clear:both;
+		position:absolute;
+		right:5px;
+	}
+	#head #hisname{
+		height:100px;
+
+	}
+	#main-movies .picture{
+		height:300px;
+		width:220px;
+	}
+	.margins{
+		width:80%;
+	}
+}
+@media(min-width:992px) and (max-width:1199px)
+{
+	#hisname #collapsibleNavbar .navbar-nav{
+		clear:both;
+		position:absolute;
+		right:5px;
+	}
+	#main-movies .picture{
+		height:300px;
+		width:220px;
+	}
+	.margins{
+		width:80%;
+	}
+}
+@media(min-width:1200px){
+	#hisname #collapsibleNavbar .navbar-nav{
+		clear:both;
+		position:absolute;
+		right:5px;
+	}
+	.margins{
+		display:none;
+	}
+
+}
+
+
